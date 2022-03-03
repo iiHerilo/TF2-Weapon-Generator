@@ -1,0 +1,122 @@
+<html>
+    <head>
+        <title>Herilo's TF2 Weapon Generator</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link href="http://fonts.cdnfonts.com/css/tf2-build" rel="stylesheet">
+        <link href="http://fonts.cdnfonts.com/css/tf2-secondary" rel="stylesheet">
+        <style>
+            .title {
+                color:#ffd700;
+            }
+            .att_level {
+                color:#756B5E;
+            }
+            .att_neg {
+                color:#FF4040;
+            }
+            .att_neu {
+                color:#EBE2CA;
+            }
+            .att_pos {
+                color:#99CCFF;
+            }
+            .gen {
+                background:#24201B;
+                border: 2px solid #ffd700;
+                border-radius: 5px;
+                padding: 10px 10px;
+                font-family:'TF2 Secondary',sans-serif;
+                font-size:15px;
+                color:#ffd700;
+            }
+            .gen:hover {
+                background:#ffd700;
+                border: 2px solid #ffd700;
+                border-radius: 5px;
+                padding: 10px 10px;
+                font-family:'TF2 Secondary',sans-serif;
+                font-size:15px;
+                color:#24201B;
+            }
+            .more {
+                background:#24201B;
+                border: 2px solid #EBE2CA;
+                border-radius: 5px;
+                padding: 10px 10px;
+                font-family:'TF2 Secondary',sans-serif;
+                font-size:15px;
+                color:#EBE2CA;
+            }
+            .more:hover {
+                background:#EBE2CA;
+                border: 2px solid #EBE2CA;
+                border-radius: 5px;
+                padding: 10px 10px;
+                font-family:'TF2 Secondary',sans-serif;
+                font-size:15px;
+                color:#24201B;
+            }
+        </style>
+        <script src="main.js"></script>
+    </head>
+    <body onload="loadNew()" style="text-align:center;">
+        <div style="line-height:1.6;margin:auto;text-align:center;background:#24201B;width:350px;-moz-border-radius:10px;border-radius:10px;padding:7px 7px;font-family:'TF2 Secondary',sans-serif;font-size:15px">
+            <br>
+            <span style="font-size: 24px; font-family:'TF2 Build', sans-serif;color:#99CCFF;">
+                <span class="att_pos">
+                    Herilo's
+                </span> 
+                <span class="title">
+                    TF2
+                </span>
+                <br>
+                <span class="att_neg">
+                    Weapon
+                </span>
+                <span class="att_neu">
+                    Generator
+                </span>
+            </span>
+            <br>
+            <button class="gen" onclick="loadNew()">
+                Generate Weapon
+            </button>
+            <br>
+            <br>
+            <span class="title" id="name" style="font-size: 18px; font-family:'TF2 Build', sans-serif;">
+                The TF2 Weapon
+            </span>
+            <br>
+            <span class="att_level" id="sub" style="">
+                Level
+            <span id="lvl">
+                69
+            </span>
+                <span id="type">
+                    Weapon
+                </span> 
+            </span>
+            <br>
+            <span id="stats" style="font-family:'TF2 Secondary',sans-serif;width:70%;font-size:15px">
+                Statistic
+                <br>
+                statistic
+                <br>
+                statistic
+            </span>
+            <br>
+            <button class="more" onclick="toggleDebug()">
+                Additional Information
+            </button>
+            <br>
+            <div class="att_level" style="display:none;" id="debug">
+                Debug 1:<br>
+                Debug 2:<br>
+                Debug 3:<br>
+                blah blah bloo
+            </div>
+            <br>
+        </div>
+    </body>
+</html>
