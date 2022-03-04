@@ -228,6 +228,100 @@ const weapons = {d:[
     {pfix: {txt:"Necro", att:"via"}, mfix: " ", sfix: {txt:"Smasher", att:"mel,weap,dmg"}},
     {pfix: {txt:"Crossing", att:"via"}, mfix: " ", sfix: {txt:"Guard", att:"mel,weap,dmg,via"}},
     {pfix: {txt:"Prinny", att:"via"}, mfix: " ", sfix: {txt:"Machete", att:"mel,weap,dmg"}},
+    {pfix: {txt:"Fox", att:"via"}, mfix: "", sfix: {txt:"Fire", att:"flm,via"}}, // friend requested 'fox' to be in here
+    {pfix: {txt:"Fire", att:"flm,via"}, mfix: "", sfix: {txt:"Fox", att:"via"}},
+    {pfix: {txt:"Short-Term", att:"via"}, mfix: " ", sfix: {txt:"Solution", att:"via,weap"}},
+    {pfix: {txt:"Solid", att:"via"}, mfix: " ", sfix: {txt:"Slugger", att:"via,weap"}},
+    {pfix: {txt:"Shotgun", att:"via,shot,gun,weap"}, mfix: " ", sfix: {txt:"Bride", att:"via,weap"}},
+    {pfix: {txt:"Nail", att:"weap,nail,gun"}, mfix: "", sfix: {txt:"Gun", att:"nail,gun"}},
+    {pfix: {txt:"Pseudo", att:"via"}, mfix: "", sfix: {txt:"Nailgun", att:"nail,gun,weap"}},
+    {pfix: {txt:"Six Point", att:"weap"}, mfix: " ", sfix: {txt:"Shuriken", att:"thn,thr,weap,dmg"}},
+    {pfix: {txt:"Six", att:"via"}, mfix: " Point ", sfix: {txt:"Shuriken", att:"thn,thr,weap,dmg"}},
+    {pfix: {txt:"Tiki", att:"via,col"}, mfix: " ", sfix: {txt:"Tonic", att:"col,edb,con,nuk,bar"}},
+    {pfix: {txt:"Silent", att:"via"}, mfix: " ", sfix: {txt:"Slicer", att:"mel,weap,dmg"}},
+    {pfix: {txt:"Slugger", att:"via,mel,weap"}, mfix: "'s ", sfix: {txt:"Face-Off", att:"weap,dmg"}},
+    {pfix: {txt:"Lead", att:"via"}, mfix: " ", sfix: {txt:"Pipe", att:"mel,weap"}},
+    {pfix: {txt:"Battering", att:"weap,dmg"}, mfix: " ", sfix: {txt:"Cannon", att:"rkt,gun,weap,exp"}},
+    {pfix: {txt:"Following", att:"via"}, mfix: " ", sfix: {txt:"Follower", att:"via"}},
+    {pfix: {txt:"Dragon", att:"via"}, mfix: " ", sfix: {txt:"Hunter", att:"weap,via"}},
+    {pfix: {txt:"Trench", att:"via"}, mfix: " ", sfix: {txt:"Buster", att:"weap,via"}},
+    {pfix: {txt:"Chains", att:"shot,gun,weap"}, mfix: " of ", sfix: {txt:"Command", att:"via"}},
+    {pfix: {txt:"Firkin", att:"via"}, mfix: " ", sfix: {txt:"Flamer", att:"flt,flm,weap"}},
+    {pfix: {txt:"Cale", att:"via,flt,weap"}, mfix: "", sfix: {txt:"Factor", att:"via,flt,weap"}},
+    {pfix: {txt:"Brittle", att:"via,flg,gun,weap,flm"}, mfix: " ", sfix: {txt:"Pistol", att:"via,flg,pis,weap,flm"}},
+    {pfix: {txt:"Split", att:"via,flg,gun,weap,flm"}, mfix: "", sfix: {txt:"Fire", att:"via,flg,pis,weap,flm"}},
+    {pfix: {txt:"Sharp", att:"mel,weap"}, mfix: " ", sfix: {txt:"Shooter", att:"shot,gun,weap"}},
+    {pfix: {txt:"Baleful", att:"via,mel,weap"}, mfix: " ", sfix: {txt:"Beacon", att:"via,mel,weap"}},
+    {pfix: {txt:"Ice", att:"ice,via"}, mfix: " ", sfix: {txt:"Breaker", att:"via,mel,weap"}},
+    {pfix: {txt:"Battering", att:"mel,weap"}, mfix: " ", sfix: {txt:"Bronco", att:"via"}},
+    {pfix: {txt:"Endless", att:"via"}, mfix: " ", sfix: {txt:"Carnage", att:"weap"}},
+    {pfix: {txt:"Glasgow", att:"via"}, mfix: " ", sfix: {txt:"Greaves", att:"boot"}},
+    {pfix: {txt:"Drunkard", att:"via"}, mfix: "'s ", sfix: {txt:"Wrath", att:"weap,via"}},
+    {pfix: {txt:"Iron", att:"via"}, mfix: " ", sfix: {txt:"Boarder", att:"via,grd,weap,exp"}},
+    {pfix: {txt:"Steadfast", att:"via"}, mfix: " ", sfix: {txt:"Blast", att:"exp"}},
+    {pfix: {txt:"Hand-Held", att:"via"}, mfix: " ", sfix: {txt:"Howitzer", att:"grd,gun,exp,weap"}},
+    {pfix: {txt:"Mine", att:"stk,exp,weap,gun"}, mfix: " ", sfix: {txt:"Layer", att:"stk,exp,weap,gun"}},
+    {pfix: {txt:"Big", att:"via"}, mfix: " ", sfix: {txt:"Man", att:"via,stk,exp,weap,gun"}},
+    {pfix: {txt:"Ground", att:"via"}, mfix: "", sfix: {txt:"Breaker", att:"via,stk,exp,weap,gun,mel"}},
+    {pfix: {txt:"Scottish", att:"via"}, mfix: " ", sfix: {txt:"Wargear", att:"chr,bar"}},
+    {pfix: {txt:"Vanguard", att:"via,chr,bar"}, mfix: " ", sfix: {txt:"Vanguard", att:"via,chr,bar"}},
+    {pfix: {txt:"Assault", att:"weap,via"}, mfix: " ", sfix: {txt:"Ram", att:"weap,via,chr,bar,mel"}},
+    {pfix: {txt:"Battering", att:"weap,mel"}, mfix: " ", sfix: {txt:"Ram", att:"weap,via,chr,bar,mel"}},
+    {pfix: {txt:"Landlubber", att:"via,chr"}, mfix: "'s ", sfix: {txt:"Landmine", att:"chr,exp,dmg,bar"}},
+    {pfix: {txt:"Dual", att:"via"}, mfix: " ", sfix: {txt:"Dullahan", att:"mel"}},
+    {pfix: {txt:"Bio", att:"via"}, mfix: " ", sfix: {txt:"Breaker", att:"min,via,gun,mel,weap"}},
+    {pfix: {txt:"Graphite", att:"via"}, mfix: " ", sfix: {txt:"Perisher", att:"min,via,gun,mel,weap"}},
+    {pfix: {txt:"Ququmannz", att:"via,min"}, mfix: "'s ", sfix: {txt:"Wrath", att:"min,via,gun,mel,weap"}},
+    {pfix: {txt:"Gingerbread", att:"lch,con,thr,bar"}, mfix: " ", sfix: {txt:"Mann", att:"via,lch,con,thr,bar"}},
+    {pfix: {txt:"Cosmic", att:"lch,con,thr,bar,nuk,via"}, mfix: " ", sfix: {txt:"Cuisine", att:"lch,con,thr,bar"}},
+    {pfix: {txt:"Full", att:"via,shot"}, mfix: " ", sfix: {txt:"Throttle", att:"via,shot,weap"}},
+    {pfix: {txt:"Sub", att:"via,shot"}, mfix: "-", sfix: {txt:"Sandvich", att:"lch,con,thr,bar"}},
+    {pfix: {txt:"Hydraulic", att:"via,mel"}, mfix: " ", sfix: {txt:"Hammer", att:"mel,weap"}},
+    {pfix: {txt:"Jaws", att:"via,mel"}, mfix: " of ", sfix: {txt:"Steel", att:"via,mel"}},
+    {pfix: {txt:"Terminal", att:"via,mel"}, mfix: " ", sfix: {txt:"Killocity", att:"via,mel"}},
+    {pfix: {txt:"Lakeside", att:"via,shot"}, mfix: " ", sfix: {txt:"Pride", att:"via,shot,gun,weap"}},
+    {pfix: {txt:"Signal", att:"lsr"}, mfix: " ", sfix: {txt:"Booster", att:"via,lsr"}},
+    {pfix: {txt:"Swifty", att:"via,lsr"}, mfix: " ", sfix: {txt:"Swiper", att:"via,lsr"}},
+    {pfix: {txt:"Gamma", att:"via,lsr,nuk"}, mfix: " ", sfix: {txt:"Gazer", att:"via,lsr"}},
+    {pfix: {txt:"Welder", att:"via,weap"}, mfix: "'s ", sfix: {txt:"Gun", att:"gun,weap,pis"}},
+    {pfix: {txt:"Jupiter", att:"via"}, mfix: "'s ", sfix: {txt:"Jupiter", att:"via,gun,weap"}},
+    {pfix: {txt:"Magnetic", att:"via,wrn,mel"}, mfix: " ", sfix: {txt:"Horseshoe", att:"via,wrn,mel"}},
+    {pfix: {txt:"Master", att:"via,wrn,mel"}, mfix: "", sfix: {txt:"Key", att:"via,wrn,mel"}},
+    {pfix: {txt:"Medical", att:"via,heal"}, mfix: " ", sfix: {txt:"Lancer", att:"mel,weap"}},
+    {pfix: {txt:"Diagnostic", att:"via,heal"}, mfix: " ", sfix: {txt:"Killer", att:"weap,gun,mel"}},
+    {pfix: {txt:"Maniac", att:"via"}, mfix: "'s ", sfix: {txt:"Interfector", att:"weap,gun,mel"}},
+    {pfix: {txt:"Maschienen", att:"via"}, mfix: "", sfix: {txt:"Pistole", att:"gun,pis,weap"}},
+    {pfix: {txt:"Geneva", att:"via,pis,gun,weap"}, mfix: " ", sfix: {txt:"Protokill", att:"gun,pis,weap"}},
+    {pfix: {txt:"Booster", att:"via,heal,med"}, mfix: " ", sfix: {txt:"Shot", att:"med,heal"}},
+    {pfix: {txt:"Blitz", att:"via,heal,med"}, mfix: "", sfix: {txt:"Storm", att:"med,heal,via"}},
+    {pfix: {txt:"Hydro", att:"via,heal,med"}, mfix: " ", sfix: {txt:"Pump", att:"med,heal,via"}},
+    {pfix: {txt:"Hypodermic", att:"via,mel"}, mfix: " ", sfix: {txt:"Injector", att:"mel,heal,via"}},
+    {pfix: {txt:"Astral", att:"via,bow,nuk"}, mfix: " ", sfix: {txt:"Assassin", att:"weap,bow,nuk"}},
+    {pfix: {txt:"Care", att:"via,gun,rfl,weap,heal"}, mfix: "", sfix: {txt:"Taker", att:"via,gun,rfl,weap"}},
+    {pfix: {txt:"Didgerido", att:"via,gun,rfl,weap"}, mfix: "", sfix: {txt:"Doom", att:"via,gun,rfl,weap"}},
+    {pfix: {txt:"Urine", att:"jar,bkp,buff"}, mfix: " ", sfix: {txt:"Trouble", att:"jar,bkp,buff,via"}},
+    {pfix: {txt:"Brief", att:"via,smg,gun,weap"}, mfix: " ", sfix: {txt:"Negotiator", att:"via,smg,gun,weap"}},
+    {pfix: {txt:"Lil'", att:"via,smg,gun,weap"}, mfix: " ", sfix: {txt:"Mate", att:"via,smg,gun,weap"}},
+    {pfix: {txt:"Melf", att:"jar,via,thr"}, mfix: "'s Magic ", sfix: {txt:"Potion", att:"jar,thr"}},
+    {pfix: {txt:"Heat", att:"mel,flm,via"}, mfix: " ", sfix: {txt:"Wave", att:"mel,flm,via"}},
+    {pfix: {txt:"Hewer", att:"mel,via"}, mfix: "'s ", sfix: {txt:"Hatchet", att:"mel,via"}},
+    {pfix: {txt:"French", att:"pis,gun,weap,via"}, mfix: " ", sfix: {txt:"Resolution", att:"pis,gun,weap,via"}},
+    {pfix: {txt:"Victor", att:"pis,gun,weap,via,nuk"}, mfix: "-", sfix: {txt:"Ion", att:"pis,gun,weap,via,nuk"}},
+    {pfix: {txt:"Infectious", att:"knf,weap,mel,via"}, mfix: "-", sfix: {txt:"Infection", att:"knf,weap,mel,via"}},
+    {pfix: {txt:"Inside", att:"knf,weap,mel,via"}, mfix: " ", sfix: {txt:"Jab", att:"knf,weap,mel"}},
+    {pfix: {txt:"Mann", att:"knf,weap,mel,via"}, mfix: "-", sfix: {txt:"Slaugher", att:"knf,weap,mel,via"}},
+    {pfix: {txt:"Intermission", att:"via,sap"}, mfix: " ", sfix: {txt:"Intermission", att:"via,sap"}},
+    {pfix: {txt:"Timely", att:"via,sap"}, mfix: " ", sfix: {txt:"Demise", att:"weap,sap"}},
+    {pfix: {txt:"Subjugated", att:"via,sap"}, mfix: " ", sfix: {txt:"Sabotuer", att:"sap"}},
+    {pfix: {txt:"Raiding", att:"via,shot,gun,weap"}, mfix: " ", sfix: {txt:"Aid", att:"via,shot,gun,heal,weap"}},
+    {pfix: {txt:"Short", att:"via,shot,gun,weap"}, mfix: " ", sfix: {txt:"Round", att:"via,shot,gun,weap"}},
+    {pfix: {txt:"Pump", att:"via,shot,gun,weap"}, mfix: " ", sfix: {txt:"Shot", att:"via,shot,gun,weap"}},
+    {pfix: {txt:"Crate", att:"mel"}, mfix: " ", sfix: {txt:"Smasher", att:"mel"}},
+    {pfix: {txt:"Merasmus", att:"mel,via"}, mfix: "'s ", sfix: {txt:"Staff", att:"mel"}},
+    {pfix: {txt:"Jackal", att:"mel,via"}, mfix: "'s ", sfix: {txt:"Beating Stick", att:"mel"}},
+
+
+    
 ]};
 /* legend
  * **r: random of 2 choices
@@ -623,6 +717,7 @@ const effects = {
 
 
 function loadNew() {
+    try {
     var pre = rng(weapons.d),
         mid = rng(weapons.d),
         suf = rng(weapons.d);
@@ -651,6 +746,12 @@ function loadNew() {
         }\nSecondary Tags:\n[${sec.join(', ')}]\n${getAllAttStrings(sec)}\n`));
     
     //console.log(`${i}: ${n}\n Primary: ${getAttString(prid)}\n Sec/Alt: ${sec}\n ${statstr}`);
+    }
+    catch(e) {
+        console.error(e);
+        console.log("Retrying...");
+        loadNew();
+    }
 }
 
 function processStats(stats) {
@@ -757,7 +858,7 @@ function getWeaponStats(prid, sec) {
         }
         
     }
-    var need = sploot("gold,wrn,flm");
+    var need = sploot("gold,wrn,flm,pyr");
     need.push(prid);
     if(need.some(e => tags.includes(e))) {
         for(let i = 0; i < need.length; i++) {
@@ -786,10 +887,10 @@ function getWeaponStats(prid, sec) {
     var quality = ["pos","neg","neu"];
     var limits = [0, 0, 0];
     var avali = [[], [], []];
-    limits[0] = randomInteger(3, 5-complete.length);
+    limits[0] = randomInteger(3-complete.length, 5-complete.length);
     limits[2] = randomInteger(-1, 2);
     if(limits[2] < 0) limits[2] = 0;
-    limits[1] = randomInteger(2, 8-(limits[0]-limits[2])-complete.length);
+    limits[1] = randomInteger(2-complete.length, 8-(limits[0]-limits[2])-complete.length);
     
     for(let i = 0; i < avali.length; i++) 
         for(let j = 0; j < fulfillers.length; j++) 
